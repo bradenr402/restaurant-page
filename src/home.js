@@ -1,10 +1,18 @@
 import addElement from './add-element';
+import heroImage from './hero-image.jpg';
 
 export default function () {
   const main = document.querySelector('#content > main');
 
   const mainSection = document.createElement('section');
   mainSection.id = 'home';
+  document.body.classList.add('hero');
+
+  // const myImage = new Image();
+  // myImage.src = heroImage;
+  // myImage.classList.add('hero-image')
+
+  // mainSection.appendChild(myImage);
 
   const sectionArticle = document.createElement('article');
 

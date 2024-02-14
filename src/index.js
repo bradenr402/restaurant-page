@@ -1,7 +1,7 @@
 import buildHomePage from './home';
 import buildMenuPage from './menu';
 import buildContactPage from './contact';
-// import './style.css';
+import './style.css';
 
 let currentTabId = buildHomePage();
 
